@@ -1,4 +1,5 @@
 import 'package:assignment3_flutter/design.dart';
+import 'package:assignment3_flutter/restaurants.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Foodexample(),
+      home: Restaurants(),
       
     );
   }
